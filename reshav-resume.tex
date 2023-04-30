@@ -1,0 +1,271 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontawesome}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+
+\pagenumbering{gobble} 
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}
+{}
+{0em}
+{}
+% [{\titlerule[0.8pt]}]
+
+\titleformat{\subsection}
+\setlength{\hoffset}{0.5em}
+{\large\bfseries}
+{}
+{}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\subsubsection}
+{0em}{0em}{0em}
+
+\setlength{\voffset}{-0.35in}
+\setlength{\hoffset}{-0.75in}
+\setlength{\headsep}{5pt}
+
+
+
+\begin{document}
+\begin{minipage}[t][0pt]{8in\linewidth}
+    \begin{minipage}[t]{5.5in\linewidth}
+    \Huge\vspace{0in}\hspace{-0.30em}\textbf{Reshav Abraham}  
+
+    \vspace{0em}\hspace{-0.2em}\Large\textbf{Full Stack ML Engineer} 
+
+    \vspace{0.5em}\hspace{0em}\small\textbf{About me} 
+
+        \begin{minipage}[t]{0.6\textwidth\hspace{0em}}
+            Passionate software engineer with experience in Full Stack Development and Machine Learning. Experience building backend API’s, Frontends. Experience with training and serving Machine Learning models. \par
+        \end{minipage}
+    \end{minipage}
+    \begin{minipage}[t]{17em\linewidth\hspace{-4em}}
+        
+        \vspace{2.75em}
+        \faEnvelopeO\hspace{0.4em}\small\mdseries\textrm{reshavabraham@gmail.com}
+
+        \vspace{0.2em}
+        \faPhone\hspace{0.65em}\small\mdseries\textrm{908-731-1426}
+        
+        \vspace{0.2em}
+        \faGithub\hspace{0.6em}\small\mdseries\textrm{https://github.com/reshav-abraham}
+        
+        \vspace{0.2em}
+        \faLinkedin\hspace{0.6em}\small\mdseries\textrm{www.linkedin.com/in/reshav-abraham}
+        
+        \vspace{0.2em}
+        \faHome\hspace{0.4em}\small\mdseries\textrm{160 Vroom Street, Apt 46,} 
+        
+        \hspace{1.25em}\small\mdseries\textrm{Jersey City, NJ 07306}
+    \end{minipage}
+
+\vspace{0.5em}
+
+\begin{minipage}[t]{0.45\textwidth\hspace{0in}}
+
+    \section{\underline{Work Experience}}
+        \vspace{-0.8em}
+        \subsection{Nlmatics}
+        % bfseries
+        \vspace{-0.5em}\hspace{0.1em}
+        \mdseries\bfseries{NLP Engineer}
+        \vspace{0.1em}
+        
+        \hspace{0.5em}\mdseries\textrm{New York, NY | July 2019 - April 2021}
+
+        \vspace{-0.8em}
+        \begin{minipage}[t]{3.75in\textwidth\hspace{0in}}
+            %\frenchspacing for even spacing
+            \vspace{0.3em}
+            \frenchspacing{Early stage startup specializing in Search and Extraction from vast volumes of unstructured text data. The product enables users to perform semantic search queries on their digitally uploaded data. The product empowers users to automate data entry tasks from elaborate and heavily detailed text (i.e. Loan Agreements, Offerendum Memorandums, Public Offerings) that would otherwise consume the time and effort of a skilled professional. The products backend API's were built with \textbf{Python}, \textbf{Swagger} (OpenApi 3.0.0) and served with \textbf{Flask} and \textbf{Gunicorn}. The frontend was implemented with \textbf{React} and served with \textbf{Nginx}. It was containerized with \textbf{Docker} and deployed with \textbf{Kubernetes}. The product was hosted on \textbf{GCP} and \textbf{Azure}.}
+
+            \vspace{0.3em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{\textbf{Developed} a service to parse and index PDF documents with high fidelity. Implemented and tested document layout analysis algorithms to improve the classification of header, paragraph, and table text. This significantly improved the search quality of the product.}
+            
+            \vspace{0.3em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{\textbf{Lead} On-Prem installations for clients and customized deployments for restrictive environments. Prepared installations by simulating client environments. Designed deployment scripts for regular updates and roll-outs.}
+
+            \vspace{0.3em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{\textbf{Designed} and \textbf{Implemented} a Search Flagging and Approval System to track regressions and improvements in search quality. This guided the development when testing new changes to the Search Engine pipeline.}
+
+            \vspace{0.3em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{\textbf{Designed} and \textbf{Developed} back-end APIs with Python and Swagger.}
+
+            \vspace{0.3em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{\textbf{Developed} front-end features with React and ANTD.}
+
+            \vspace{0.3em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Maintained and debugged CI/CD pipelines with Github Actions, Docker, Kubernetes, and GCP/Azure.}
+        \end{minipage}
+
+        \vspace{-1em}
+        \subsection{Dell EMC}
+        % bfseries
+        \vspace{-0.5em}\hspace{0.1em}
+        \mdseries\bfseries{Software Intern}
+        \vspace{0.1em}
+        
+        \hspace{0.5em}\mdseries\textrm{Charlotte, NC | May 2017 — August 2017}
+
+        \vspace{-0.4em}
+        \begin{minipage}[t]{3.75in\textwidth\hspace{0in}}
+            \vspace{0.1em}
+            \hspace{1em}\textasteriskcentered \, \mdseries\textrm{Extrapolated memory usage for enterprise data pipelining} 
+            
+            \hspace{1.6em} software by modeling a regression on real-time memory 
+            
+            \hspace{1.6em} consumption data using Apache Spark.
+        \end{minipage}
+
+        \vspace{-1.5em}
+        \section{\underline{Projects}}
+        \begin{minipage}[t]{3.75in\textwidth\hspace{0in}}
+
+            \vspace{-1em}
+            \mdseries\bfseries{Voice Detection}            
+            
+            \vspace{0em}
+            \small\mdseries
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Developed a neural network architecture using \textbf{CNN} and linear} 
+            
+            \frenchspacing\hspace{2em}layers for processing audio signals to identify human voices.
+
+            \vspace{0.6em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Developed a script for scraping audio from YouTube playlists.}
+            
+            \vspace{0.6em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Utilized MFCC and Signal Processing techniques to} 
+            
+            \hspace{1.7em} prepare data.
+
+        \end{minipage}
+
+\end{minipage}
+    \begin{minipage}[t]{3.1in\linewidth\hspace{2.8em}}
+    \section{\underline{Technical Skills}}
+    \vspace{-0.7em}
+    \subsubsection{Languages}
+    \, Python, JavaScript, Bash, C++, Java
+    \vspace{-0.7em}
+
+    \subsubsection{Frameworks}
+    \, PyTorch, Tensorflow, Swagger,
+    
+    \hspace{6.2em} React
+    \vspace{0.1em}
+
+    \subsubsection{DevOps}
+    \, Docker, Kubernetes, Nginx
+    \vspace{0.3em}
+
+    \subsubsection{Cloud}
+    \, GCP, Azure
+    \vspace{0.3em}
+    
+    \subsubsection{Databases}
+    \, MongoDB, Postgres, Redis}
+    \vspace{0.3em}
+
+    \subsubsection{Markup}
+    \, {\LaTeX}, HTML, CSS, Markdown}
+
+    \vspace{0.3em}
+    \subsubsection{Project Management}
+    \, Clubhouse, Jira
+    
+    \vspace{0.3em}
+    \subsubsection{Misc}
+    \, Git, Linux, Web Scraping, Jupyter
+
+    \vspace{1em}
+    \section{\underline{Education}}
+    \vspace{-0.75em}
+    \large\bfseries{B.S Computer Engineering}
+
+    \bfseries{Purdue University} 
+
+    \small\mdseries\textrm West Lafayette, Indiana \, \, \, \, \, 2014 — 2018
+
+    \vspace{0.4em}
+
+    \small\bfseries\textrm{Multi-core Processor System Verilog}
+    
+    \vspace{0.3em}
+    \small\mdseries
+    \hspace{0em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Implemented a synthesizable multi-core processor for processing MIPS assembly language in SystemVerilog.}
+    \vspace{0.8em}
+    
+    \small\bfseries\textrm{Automated Nerf-Gun Turret}
+    
+    \vspace{0.3em}
+    \small\mdseries
+    \hspace{0em}\textasteriskcentered \, \frenchspacing\mdseries\textrm Engineered a turret gun with 3D printed parts, STM32F407VGT7, and Raspberry pi. The turret gun was controllable with a Wii nunchuck and could detect and shoot human targets with a nerf dart.
+
+    \vspace{0.5em}
+    \small\mdseries
+    \hspace{0em}\textasteriskcentered \, \frenchspacing\mdseries\textrm Implemented human-target detection and tracking with MobileNetSSD and OpenCV.
+
+    \vspace{0.5em}     
+    \section{\underline{Certificates}}
+        \begin{minipage}[t]{3.3in\textwidth\hspace{0in}}    
+            
+            \vspace{-1.5em}        
+            \mdseries\bfseries{Natural Language Processing with Deep Learning}
+            
+            \hspace{0.4em}\small\mdseries\textrm Stanford University, CS224N
+            
+            \hspace{0.4em}\small\mdseries\textrm October 2020 — December 2020
+            
+            \small\mdseries
+            \vspace{0.4em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Developed a Neural Machine Language Translation model in \textbf{PyTorch}.}
+            
+            \vspace{0.4em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Implemented \textbf{Encoder} and \textbf{Decoder} networks using \textbf{LSTM} and \textbf{CNN} layers for processing out-of-vocabulary words.}
+        \end{minipage}
+    
+        \begin{minipage}[t]{3.3in\textwidth\hspace{0in}}    
+            \vspace{1.25em}        
+            \mdseries\bfseries{Coursera Certificates}
+
+            \small\mdseries
+            \vspace{0.2em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing{Natural Language Processing with Attention Models}
+            
+            \small\mdseries
+            \vspace{0.2em}
+            \hspace{1em}\textasteriskcentered \, \frenchspacing{Natural Language Processing with Probabilistic Models}
+
+            \small\mdseries
+            \vspace{0.2em}
+            \hspace{1em}\textasteriskcentered \hspace{-0.1em} \frenchspacing{Natural Language Processing with Classification and Vector Spaces}
+
+        \end{minipage}
+
+    \vspace{2em}
+    \begin{minipage}[t]{3.25in\textwidth\hspace{-0.25em}}
+        \mdseries\bfseries{Planner}            
+        
+        % \vspace{0.4em}
+        \small\mdseries
+        \hspace{0.25em}\textasteriskcentered \, \frenchspacing\mdseries\textrm{Designed and Implemented A planner for productivity management. A user can create multiple plan workspaces and keep track of goals and progress in an organized manner. Frontend components were implemented with \textbf{React} and \textbf{Material Design}. Backend was implemented with \textbf{Python}, \textbf{FastApi}. \textbf{MongoDB} was used as the database.}
+
+    \end{minipage}
+
+\end{minipage}
+
+
+\end{minipage}
+\end{document}
